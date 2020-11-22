@@ -8,5 +8,12 @@ But for multiples of three print "Fizz" instead of the number and for the multip
 
 For numbers which are multiples of both three and five print "FizzBuzz".
 
-## Solution
-Used the Iterator Design Pattern
+## Solution 1
+The shortest way for doing it is using a lambda 
+## Solution 2
+As the proposal was to use some patter and not the shortest solution, we have Used the Iterator Design Pattern. This pattern allows the iteration through a collection of specific items.
+
+* The Container is the interface used for providing the iterator
+* CollectionOfNumbersIterate: Implements the iterator for the specific item FizzBuzzNumber
+* FizzBuzzNumber: Class that is able to identify if a number is multiple of 3, 5 or both.
+* FizzNumberRepository: Creates the iterator for FizzBuzzNumber
