@@ -1,6 +1,4 @@
-## Background 
-The Aeroplane class already defines a method called "fly" and has an implementation for it.
-The Car class already has an implementation for "drive".
+## FizzBuzz 
    
 ## The problem  
 Write a program that prints the numbers from 1 to 100.

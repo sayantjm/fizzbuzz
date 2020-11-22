@@ -1,3 +1,5 @@
+import org.apache.commons.collections4.CollectionUtils;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -12,7 +14,7 @@ public class FizzNumberRepository implements Container {
     public FizzNumberRepository(List<Integer> listNumbers) {
         listItems = new ArrayList<>();
 
-        if (!listNumbers.isEmpty()) {
+        if (CollectionUtils.isNotEmpty(listNumbers)) {
             listNumbers.stream().
                     map(number -> new FizzBuzzNumber(number))
                     .forEach(fizzBuzzNumber -> listItems.add(fizzBuzzNumber));

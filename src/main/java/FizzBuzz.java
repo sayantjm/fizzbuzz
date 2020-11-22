@@ -19,6 +19,12 @@ import java.util.stream.IntStream;
  */
 public class FizzBuzz {
 
+    /**
+     * The application is creating a list with values 0 to 100 using IntStream.rangeClosed()
+     * The Iterator, is used for iterating all the values and returning the correct String
+     * depending on value is multiple of 3, 5, both or not multiple.
+     *
+     */
     public static void main(String... args) {
         /**
          * Simple solution without using design patterns

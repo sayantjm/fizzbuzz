@@ -2,6 +2,8 @@ import java.util.Iterator;
 
 /**
  * Created by sayantjm on 21/11/20
+ * This class saves the position of the iterator, can check if there are more
+ * elements to iterate and returns the value from next position
  */
 public class CollectionOfNumbersIterate implements Iterator<FizzBuzzNumber> {
 
