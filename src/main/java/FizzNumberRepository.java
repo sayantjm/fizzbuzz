@@ -6,6 +6,8 @@ import java.util.List;
 
 /**
  * Created by sayantjm on 21/11/20
+ * The repository is creating the collection of FizzNumbers
+ * and the correspondent iterator through the collection
  */
 public class FizzNumberRepository implements Container {
 
